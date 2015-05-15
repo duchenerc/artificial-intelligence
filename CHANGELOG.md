@@ -1,3 +1,7 @@
+## v1.2.4
+
+Fix potential XSS vulnerability
+
 ## v1.2.0
 
 * Add forums
