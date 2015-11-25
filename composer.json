@@ -3,7 +3,7 @@
     "description": "The ultimate WordPress theme for any FRC team.",
     "keywords": ["dark", "modern", "FRC"],
     "license": "GPL-2.0+",
-    "version": "1.2.0",
+    "version": "1.2.4",
     "repositories": [
       {
         "type": "composer",
@@ -27,8 +27,7 @@
     "extra": {
       "installer-paths": {
         "vendor/{$name}": [
-          "wpackagist-plugin/advanced-custom-fields",
-          "wpackagist-plugin/radio-buttons-for-taxonomies"
+          "wpackagist-plugin/advanced-custom-fields"
         ]
       }
     },
