@@ -92,7 +92,7 @@
 
 #article
 {
-	@include ai-article($cc: ccw-article);
+	@include ai-article(&, $cc: ccw-article);
 }
 
 .no-posts

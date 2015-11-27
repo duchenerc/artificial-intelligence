@@ -18,7 +18,6 @@
 
 @mixin ai-offcanvas($sel: &, $opts...)
 {
-	// @debug inspect($sel);
 	$args: keywords($opts);
 	
 	@extend %ai-offcanvas;
