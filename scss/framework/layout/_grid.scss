@@ -87,13 +87,6 @@ $grid-cols-width: ((100% / $grid-cols-num) - $grid-cols-gutter);
 			//
 			%col-#{$break}-#{$i}
 			{
-				// Floats
-				//
-				@at-root (with: rule)
-				{
-					@extend %col;
-				}
-				
 				width: ($grid-cols-width * $i) + ($grid-cols-gutter * ($i - 1));
 			}
 		}
@@ -140,6 +133,19 @@ $grid-cols-width: ((100% / $grid-cols-num) - $grid-cols-gutter);
 		%show-#{$break}
 		{
 			display: initial;
+		}
+	}
+}
+
+// Floats
+//
+@each $break in $breaks-keys
+{
+	@for $i from 1 through $grid-cols-num
+	{
+		%col-#{$break}-#{$i}
+		{
+			@extend %cf;
 		}
 	}
 }

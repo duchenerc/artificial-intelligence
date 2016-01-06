@@ -36,12 +36,6 @@
 //     <li>
 //       Item #3
 //     </li>
-//     <li>
-//       Item #4
-//     </li>
-//     <li>
-//       Item #5
-//     </li>
 //   </ul>
 // </div>
 //
@@ -133,17 +127,11 @@
 	
 	html.no-flexbox.no-flexboxlegacy &
 	{
-		@at-root (with: rule)
-		{
-			@extend %cf;
-		}
+		@extend %cf;
 		
 		#{$cc}
 		{
-			@at-root (with: rule)
-			{
-				@extend %cf;
-			}
+			@extend %cf;
 			
 			@if $align == center
 			{

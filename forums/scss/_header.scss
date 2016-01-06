@@ -21,10 +21,10 @@
 
 #nav-offcanvas-left-forums
 {
-	@include ai-offcanvas($side: left);
+	@include ai-offcanvas(&, $side: left);
 }
 
 #nav-offcanvas-right
 {
-	@include ai-offcanvas($side: right);
+	@include ai-offcanvas(&, $side: right);
 }

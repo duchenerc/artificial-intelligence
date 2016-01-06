@@ -23,6 +23,15 @@
 		a
 		{
 			@extend a%ai-rhythm;
+			
+			border-color: color(dfg);
+			color: color(dfg);
+			
+			&:hover
+			{
+				color: color(da);
+				border-color: color(da);
+			}
 		}
 		
 		p
@@ -90,6 +99,16 @@
 			a
 			{
 				@extend a%ai-rhythm;
+				
+				border-color: color(dfg);
+				color: color(dfg);
+				
+				&:hover
+				{
+					color: color(da);
+					border-color: color(da);
+				}
+				
 			}
 		}
 		

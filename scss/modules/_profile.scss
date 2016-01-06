@@ -31,6 +31,14 @@
 		a
 		{
 			@extend a%ai-rhythm;
+			border-color: color(lfg);
+			color: color(lfg);
+			
+			&:hover
+			{
+				color: color(la);
+				border-color: color(la);
+			}
 		}
 	}
 	

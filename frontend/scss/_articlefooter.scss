@@ -42,6 +42,15 @@
 		{
 			@extend a%ai-rhythm;
 			border: 0 !important;
+			border-color: color(dfg);
+			color: color(dfg);
+			
+			&:hover
+			{
+				color: color(da);
+				border-color: color(da);
+			}
+			
 		}
 			
 	}

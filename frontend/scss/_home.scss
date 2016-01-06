@@ -35,7 +35,7 @@
 	//
 	&-standard
 	{
-		@include ai-block($req-sticky: true);
+		@include ai-block(&, $req-sticky: true);
 	}
 	
 	// POST FORMAT
@@ -45,7 +45,7 @@
 	{
 		&-#{$format}
 		{
-			@include ai-plate($icon: $format);
+			@include ai-plate(&, $icon: $format);
 		}
 	}
 	
@@ -54,7 +54,7 @@
 	//
 	&-quote
 	{
-		@include ai-plate($icon: quote);
+		@include ai-plate(&, $icon: quote);
 		
 		.cite
 		{

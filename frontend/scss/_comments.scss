@@ -1,4 +1,4 @@
 #comments
 {
-	@include ai-comments($sel-comment: ".comment");
+	@include ai-comments(&, $sel-comment: ".comment");
 }
