@@ -349,6 +349,18 @@ $article-colors: (
 	@extend %ai-article;
 	color: color(map-find($colors, p));
 	
+	a
+	{
+		color: color(map-find($colors, p));
+		border-color: color(map-find($colors, p));
+		
+		&:hover
+		{
+			color: color(map-find($colors, a));
+			border-color: color(map-find($colors, a));
+		}
+	}
+	
 	p,
 	h1,
 	h2,
@@ -424,6 +436,7 @@ $article-colors: (
 	@include ai-article(".article",
 											$color-p: dfg,
 											$color-h: dh,
+											$color-a: da,
 											$color-ac: dac);
 }
 
@@ -435,5 +448,6 @@ $article-colors: (
 	@include ai-article(".article",
 											$color-p: chrfg,
 											$color-h: chrh,
+											$color-a: da,
 											$color-ac: chrac);
 }
